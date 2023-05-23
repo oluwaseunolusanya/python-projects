@@ -32,3 +32,4 @@ test(
         {"height": 21, "width": 5},
     ]
 )
+test([{"height": 3, "width": 2}])
