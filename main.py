@@ -22,3 +22,8 @@ def character_counter(text):
     return return_value
 
 print(character_counter(file_contents))
+
+character_count = character_counter(file_contents)
+for k,v in character_count.items():
+    if k.isalpha():
+        print(f"The '{k}' character was found {v} times.")
