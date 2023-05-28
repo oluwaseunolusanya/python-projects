@@ -1,3 +1,5 @@
+"""Employee system that tracks employees.
+"""
 class Employee:
     company_name = "Dev.boot"
     total_employees = 0
